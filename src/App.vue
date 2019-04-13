@@ -1,16 +1,20 @@
 <template>
     <Tabs type="card">
         <TabPane label="New Product">
-          <HelloWorld />
+          <ProductForm />
         </TabPane>
-        <TabPane label="Product List">product list page</TabPane>
+        <TabPane label="Product List">
+          <ProductTable />
+        </TabPane>
     </Tabs>
 </template>
 <script>
-    import ProductForm from './components/ProductForm'
+    import ProductForm from './components/ProductForm.vue'
+    import ProductTable from './components/ProductTable.vue'
     export default {
         components: {
-          ProductForm
+          ProductForm,
+          ProductTable
         }
     }
 </script>
