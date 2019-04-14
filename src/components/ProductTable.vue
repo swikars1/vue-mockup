@@ -3,7 +3,7 @@
 </template>
 <script>
     export default {
-    	props: [],
+    	props: ['formArray'],
         data () {
             return {
                 columns1: [
@@ -13,7 +13,7 @@
                     },
                     {
                         title: 'Age',
-                        key: 'age'	
+                        key: 'age'
                     },
                     {
                         title: 'Address',

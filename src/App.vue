@@ -12,10 +12,11 @@
     import ProductForm from './components/ProductForm.vue'
     import ProductTable from './components/ProductTable.vue'
     export default {
-        components: {
-          ProductForm,
-          ProductTable
-        }
+      props: [],
+      components: {
+        ProductForm,
+        ProductTable
+      }
     }
 </script>
 

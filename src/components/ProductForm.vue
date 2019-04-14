@@ -74,9 +74,9 @@
                 this.$refs[name].validate((valid) => {
 
                     if (valid) {
-                        this.$Message.success('Success!');
+                        this.$Message.success('Product added successfully!');
                     } else {
-                        this.$Message.error('Fail!');
+                        this.$Message.error('Failed to add product!');
                     }
                 })
             },
